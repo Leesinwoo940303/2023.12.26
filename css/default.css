@@ -1,0 +1,215 @@
+@charset "utf-8"; 
+
+body { 
+-webkit-font-smoothing: antialiased; 
+ } 
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video { 
+margin: 0; 
+padding: 0; 
+border: 0; 
+ } 
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section { 
+display: block; 
+ } 
+
+div,
+span,
+article,
+section,
+header,
+footer,
+aside,
+p,
+ul,
+li,
+fieldset,
+legend,
+label,
+a,
+nav,
+form { 
+box-sizing: border-box; 
+ } 
+
+ol,
+ul,
+li { 
+list-style: none; 
+ } 
+
+table { 
+border-collapse: collapse; 
+border-spacing: 0; 
+ } 
+
+.t-bold { 
+font-weight: 800; 
+-webkit-text-fill-color: #000000; 
+ } 
+.t-bold2 { 
+font-weight: 800; 
+-webkit-text-fill-color: #ffffff; 
+
+ } 
+
+.t-normal { 
+font-weight: 400; 
+ } 
+
+.t-thin { 
+font-weight: 200; 
+-webkit-text-stroke: 4px #000000; 
+-webkit-text-fill-color: #000000; 
+ } 
+.t-thin2 { 
+font-weight: 200; 
+-webkit-text-stroke: 4px #ffffff; 
+-webkit-text-fill-color: #ffffff; 
+ } 
+
+
+.t-italic { 
+font-style: italic; 
+ } 
+
+.t-stroke { 
+color: transparent; 
+-webkit-text-stroke: 4px #000000; 
+
+ } 
+.t-stroke2 { 
+color: transparent; 
+-webkit-text-fill-color: #000000; 
+
+ } 
+.t-stroke3 { 
+color: transparent; 
+-webkit-text-fill-color: #ffffff; 
+
+ } 
+.t-stroke-white { 
+color: transparent; 
+-webkit-text-stroke: 1px #ffffff; 
+ } 
+
+.t-left { 
+text-align: left; 
+-webkit-text-fill-color:#000000; 
+ } 
+.t-left2 { 
+text-align: left; 
+-webkit-text-fill-color:#ffffff; 
+ } 
+
+.t-right { 
+text-align: left; 
+-webkit-text-fill-color:#000000; 
+
+ } 
+
+.t-center { 
+text-align: center; 
+ } 
+
+.s-tit { 
+padding: 0.3em 0; 
+-webkit-text-fill-color:#000000; 
+ } 
+
+.s-tit2 { 
+padding: 0.3em 0; 
+-webkit-text-fill-color:#ffffff; 
+
+ } 

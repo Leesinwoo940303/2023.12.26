@@ -1,0 +1,65 @@
+.button_container {
+  position: relative;
+  width: 300px;
+}
+
+.button_container a {
+  text-decoration: none;
+}
+
+.min-ava {
+  position: absolute;
+  display: flex;
+  left: -35px;
+  bottom: 0;
+  z-index: 2;
+}
+
+.min-ava img {
+  width: 90px;
+}
+
+.btn {
+  border: none;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 0.7rem;
+  background-color: #111;
+  padding: 22px 40px 22px 40px;
+  margin: 0 auto;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.20);
+}
+
+.btn span {
+  position: relative;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+
+.btn:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 470%;
+  width: 140%;
+  background: #15b2e5;
+  transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  transform: translateX(-110%) translateY(-25%) rotate(45deg);
+  transform: translateX(-110%) translateY(-25%) rotate(45deg);
+}
+
+.btn:hover:after {
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
