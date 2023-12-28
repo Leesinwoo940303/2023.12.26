@@ -6,7 +6,7 @@ const context = canvas.getContext("2d");
 canvas.width = 1920;
 canvas.height = 1080;
 
-const frameCount = 469;
+const frameCount = 466;
 const currentFrame = index => (
   `./sequence/${(index + 1).toString().padStart(4, '0')}.png`
 );
